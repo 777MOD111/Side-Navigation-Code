@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+<title>Eighties</title>
+<meta charset="utf-8">
+</head>
+
+<style>
+
+.sidenav {
+  height: 100%; 
+  width: 160px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-image:url(<img src="pump-up-the-90s.jpeg" width="100%" height="100%" alt="pump-up-the-90s">);
+  Background-size:cover;
+  background-repeat: no-repeat;
+  background-color: #111; /
+  overflow-x: hidden; 
+  padding-top: 20px;
+  
+}
+
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #605052;
+  display: block;
+  border: 10px solid #211a23;
+}
+
+
+.sidenav a:hover {
+  color: #FFDDAF;
+}
+
+
+.main {
+  margin-left: 160px; 
+  padding: 0px 10px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px; }
+}
+body { background-color: #080808;
+       text-align: center;
+       color: #605052;
+       list-style-type: none;
+       border: 10px solid #211a23;
+       opacity: 100%
+       border-radius:15px;}
+nav   { font-weight: bold;
+        padding: 0;
+		font-size: 100%;
+		background-image:url(<img src="pump-up-the-90s.jpeg" width="828" height="825" alt="pump-up-the-90s">);}
+		
+li {list-style-type: none;}
+
+} 
+.rotate {
+  animation: rotation 2s;
+}
+
+.linear {
+  animation-timing-function: linear;
+}
+
+.infinite {
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+
+
+
+
+		
+       
+       
+       
+</style>   
+
+   
+<header>
+  </header>
+  <nav>
+  <div class="sidenav">
+  <a href="starter.html">Home</a>
+  <a href="Nineties.html">Shop</a>
+  <a href="eighties.html">Media</a>
+  <a href="form.html">Art</a></li>
+</div>
+
+<!-- Page content -->
+<div class="main">
+  ...
+</div>
+    <ul>
+    <h1><a href="starter.html"></a></h1>
+       <li><a href="nineties.html"></a></li>
+       <li><a href="eighties.html"></a></li>
+       <li><a href="form.html"></a></li>
+       </nav>
+<body> 
+
+</body>
+<footer>
+ Copyright &copy; PASTELLE STUDIOUS <class="rotate infinite linear" width="100" height="100" alt="Asset 8"><img src="mycustomcursor.gif" width="480" height="480" alt="mycustomcursor">
+</footer>   
+       
